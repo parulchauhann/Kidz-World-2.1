@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin: .8vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 12vw;
+}
+
+.add_to_Cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart_items {
+    width: 3vw;
+}
+
+.add_to_Cart:hover {
+    cursor: pointer;
+}
+
+#no_of_items {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.background_img {
+    max-width: 100%;
+}
+
+.text_image {
+    position: absolute;
+    top: 7rem;
+    left: 4.7rem;
+    font-size: 2.2rem;
+    color: white;
+    font-weight: 100;
+}
+
+.smalltext {
+    margin-top: 1.6rem;
+    font-size: 1.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* #one {
+    position: absolute;
+} */
+
+#two {
+    margin: 4.5vw;
+}
+
+.books_heading {
+    font-size: 1.6rem;
+    margin-top: 9.8rem;
+}
+
+.name, #price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.writer {
+    color: rgb(143, 140, 140);
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: .7vw 0vw 2vw auto;
+    font-size: larger;
+}
+
+.items_set {
+    display: flex;
+    justify-content: space-between;
+    padding-top: .7rem;
+}
+
+.items_set img{
+    width: 15vw;
+}
+
+#buying img {
+    width: 3vw;
+}
+
+#book_id {
+    padding: .13vw;
+}
+
+#buying:hover {
+cursor: pointer;
+}
+
+#buying {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cart1 {
+    background-color: rgb(63, 158, 196);
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 6px;
+    font-size: 1.4vw;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: .3vw;
+}
+
+#cart1 img {
+    width: 2.1vw;
+    padding: 0.4vw;
+}
+
+.game_heading {
+    font-size: 1.6rem;
+    margin-top: 9.8rem;
+}
+
+.items_games {
+    display: flex;
+    justify-content: space-between;
+    padding-top: .7rem;
+}
+
+.items_games img{
+    width: 22vw;
+}
+
+.naming_games {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.handmades_heading {
+    font-size: 1.6rem;
+    margin-top: 9.8rem;
+}
+
+.naming_handmades {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 14vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    margin-left: 3.3rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.footer p{
+    padding: 0.1rem;
+    font-size: 1.5vw;
+}
+
+.footer img {
+    margin-top: .4rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.text {
+    text-align: right;
+    font-size: 1.3vw;
+    padding: 3vw;
+}
+
+.text h3{
+    margin-bottom: 1rem;
+}
