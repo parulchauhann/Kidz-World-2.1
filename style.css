@@ -19,6 +19,10 @@ nav {
     align-items: center;
 }
 
+#cart {
+    display: flex;
+}
+
 .cart_items {
     width: 3vw;
 }
@@ -27,7 +31,7 @@ nav {
     cursor: pointer;
 }
 
-#no_of_items {
+.no_of_items {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
 }
@@ -36,11 +40,15 @@ nav {
     max-width: 100%;
 }
 
+.have_fun {
+    display: flex;
+}
+
 .text_image {
     position: absolute;
     top: 7rem;
     left: 4.7rem;
-    font-size: 2.2rem;
+    font-size: 3vw;
     color: white;
     font-weight: 100;
 }
@@ -164,20 +172,20 @@ footer {
 }
 
 .footer {
-    margin-left: 3.3rem;
-    margin-top: 1rem;
-    font-size: 1.5rem;
+    margin-left: 5vw;
+    margin-top: .5vw;
+    font-size: 2vw;
 }
 
 .footer p{
-    padding: 0.1rem;
+    padding: .5vw;
     font-size: 1.5vw;
 }
 
 .footer img {
-    margin-top: .4rem;
-    width: 8rem;
-    height: 8rem;
+    margin-top: .5vw;
+    width: 9vw;
+    height: 9vw;
     border-radius: 50%;
 }
 
@@ -188,5 +196,144 @@ footer {
 }
 
 .text h3{
-    margin-bottom: 1rem;
+    margin-bottom: 1vw;
 }
+
+@media only screen and (orientation: portrait) {
+    nav {
+        height: 8vw;
+    }
+
+    #logo {
+        margin-top: 1.5vw;
+        width: 32vw;
+    }
+
+
+    .cart_items {
+        width: 7vw;
+    }
+
+    #cart {
+        font-size: 2rem;
+        display: block;
+    }
+
+    .no_of_items {
+        font-size: 2vw;
+    }
+
+    .text_image {
+        position: absolute;
+        top: 17vw;
+        left: 7vw;
+        font-size: 4.5vw;
+    }
+    
+    .smalltext {
+        margin-top: 1.5vw;
+        font-size: 2.5vw;
+    }
+
+    .have_fun {
+        display: block;
+    }
+
+    .items_set, .items_games {
+        display: block;
+        padding-top: .7rem;
+    }
+
+    .books_heading, .game_heading, .handmades_heading {
+        font-size: 8vw;
+        text-align: center;
+    }
+
+    #book_id {
+        margin: auto;
+        max-width: fit-content;
+        margin-bottom: 12vw;
+    }
+
+    .items_set img{
+        width: 50vw;
+    }
+    
+    #buying img {
+        width: 7vw;
+    }
+
+    .books_heading {
+        margin-top: 3rem;
+    }
+
+    .name, .writer, .naming_handmades {
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    #cart1 {
+        width: 18vw;
+        font-size: 4vw;
+        padding: .8vw;
+    }
+
+    #price {
+        font-size: 5vw;
+    }
+
+    .items_games img{
+        width: 75vw;
+        margin-top: 1vw;
+    }
+
+    .naming_games, .writer {
+        text-align: center;
+        font-size: 6vw;
+    }
+
+    .naming_handmades {
+        font-size: 6vw;
+    }
+
+    footer {
+        height: 30vw;
+    }
+
+    .footer {
+        margin-left: 7vw;
+        margin-top: 3vw;
+        font-size: 15vw;
+    }
+    
+    .footer p{
+        padding: .5vw;
+        font-size: 4vw;
+    }
+    
+    .footer img {
+        margin-top: 1vw;
+        width: 18vw;
+        height: 18vw;
+    }
+    
+    .text {
+        text-align: right;
+        font-size: 3vw;
+        padding: 5vw;
+        margin-top: 3vw;
+    }
+    
+    .text h3{
+        margin-bottom: 2vw;
+    }
+    
+}
+
+@media only screen and (max-width: 945px){
+    .background_img {
+        height: 50vw;
+    }
+}
+
+
